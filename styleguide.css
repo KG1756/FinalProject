@@ -1,0 +1,115 @@
+.background {
+    background-color: rgb(252, 247, 208);
+}
+
+.title {
+    text-align: center;   
+    color: #4785a9;   
+    text-shadow: #355262;   
+    font-family: 'Brush Script MT', cursive;   
+    font-size: 70px; 
+    margin: 20px 0;    
+}
+
+.subheading {
+    font-style: bold; 
+    font-size: 40px;
+    color: #4785a9;
+    font-family:'Brush Script MT', cursivepace;  
+    margin-left: 20px; 
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.subheading2 {
+    font-style: bold; 
+    font-size: 60px;
+    color: #4785a9;
+    font-family:'Brush Script MT', cursivepace;  
+    margin-left: 20px; 
+    margin-bottom: 10px;
+    text-align: center;
+}
+.bodytext {
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #355262;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.List {
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #355262;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.custom-link {
+    color:#355262;
+    text-align: left !important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    margin-right: auto;
+    padding:  10px 0; /* Removes top padding, keeps bottom padding */
+    margin-top: -20px; 
+}
+
+.first-img {
+    margin-left: 265px;
+    display: grid;
+    min-height: 30vh;
+    place-items: center;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, 1fr);    /* 2 rows */
+    gap: 10px; /* spacing between images */
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ensures images maintain aspect ratio */
+  }
+
+  .heading-with-bg {
+    background-image: url(Photos/field.png);
+    background-size: cover; 
+    background-position: center;
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+  }
+
+
+.tableau-container {
+    width: 90%;                /* Leaves 5% margin on each side */
+    max-width: 1400px;         /* Prevents excessive width */
+    margin: 0 auto;            /* Centers horizontally */
+    padding: 20px 0;           /* Optional vertical spacing */
+    box-sizing: border-box;    /* Includes padding in width calculation */
+  }
+  
+  /* Tableau placeholder adjustments */
+  .tableauPlaceholder {
+    display: block !important; /* Overrides any inline styles */
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  /* Tableau viz element */
+  .tableauViz {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 600px;         /* Adjust based on your viz */
+    border: none !important;
+  }
+
+
